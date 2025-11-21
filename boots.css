@@ -1,0 +1,33 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.nav-link:hover {
+    color: #cfcfcf !important;
+}
+
+.carousel-item img {
+    height: 70vh;
+    object-fit: cover;
+    filter: grayscale(100%) brightness(80%);
+}
+
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+}
+
+.card, .carousel {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

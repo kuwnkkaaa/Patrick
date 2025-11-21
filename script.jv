@@ -1,0 +1,9 @@
+const banner = document.querySelector('.animated-banner');
+
+banner.addEventListener('mouseover', () => {
+    banner.style.transform = 'scale(1.1)';
+});
+
+banner.addEventListener('mouseout', () => {
+    banner.style.transform = 'scale(1)';
+});
